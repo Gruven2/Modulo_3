@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(218, 190, 35);
+}
+
+.encabezado .titulo{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.minimenu .enlaces ul li a {
+    font-size: 20px;
+    color: rgb(218, 0, 35);
+    text-decoration: none;
+}
+
+.minimenu{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.minimenu .enlaces ul li{
+
+    display: inline-block;
+
+    padding: 0px 10px;
+
+}
+.minimenu .enlaces ul li a:hover{
+
+    color: black;
+    background-size: 90% 2px;
+
+    
+}
+
+.encabezado {
+    background-color: rgb(212, 124, 42);
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.Menu-titulo {
+    text-align: center;
+}
+
+.bandejapaisa {
+    box-sizing: border-box; 
+    align-items: center;
+}
+
+.bandejapaisa img {
+    width: 960px;
+    padding: 10px;
+    align-items: center;
+}
+.nombre1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.texto1{
+    color: rgb(180, 21, 21);
+    text-align: center;
+}
+
+.changua {
+    box-sizing: border-box;
+}
+.changua img {
+    width: 960px;
+    padding: 10px;
+    
+    cursor: pointer;
+}
+.nombre2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.texto2{
+    color: rgb(180, 21, 21);
+}
+
+.sancocho {
+    box-sizing: border-box;
+}
+.sancocho img {
+    width: 960px;
+    padding: 10px;
+    
+    cursor: pointer;
+}
+.nombre3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.texto3{
+    color: rgb(180, 21, 21);
+}
